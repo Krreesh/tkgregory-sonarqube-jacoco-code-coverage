@@ -17,7 +17,7 @@ public class MathServiceTest {
     @Test
     public void multipliesNumbers() {
         int result = mathService.multiply(2, 4);
-        int result2 = matchService.subtract(4, 2);
+        int result2 = mathService.subtract(4, 2);
         assertThat(result, equalTo(8));
     }
 }
